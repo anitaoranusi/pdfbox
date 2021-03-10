@@ -1,0 +1,5 @@
+US001 Task001: Create a tab exclusively for editing one or more selected PDF documents
+US001 Task002: Implement the swap mechanism with the use of data structures such as an array list
+
+US002 Task003: Add a button that provides the option to add an encrypted password to a PDF document
+US002 Task004: When a PDF document that contains a password is accessed, a user must enter the password to view and/or edit said document
