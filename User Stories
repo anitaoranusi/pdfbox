@@ -1,1 +1,14 @@
+US001 UserStory001: As a teacher,  I would like to be able to move and swap individual pdf pages around for better organization
+US002 UserStory002: As a new cyber security intern, I would like there to be a feature to add a password and encrypt the files
 
+US003 UserStory003: As an Editor, I want to save document in a file so that users can open the document for further editing or review.
+US004 UserStory004: As an Editor, I want to automatically persist my changes so that I do not lose my changes if the tool is unexpectedly terminated before saving into a file.
+
+US005 UserStory005: As a student, I want to make a resume builder, so that it will create nicely formatted resume.
+US006 UserStory006: As a user, I want to make a graphic user interface for selected features so that people from non-programming background can use this feature.
+
+US007 UserStory007: As a user, I would want there to be a feature that changes themes on the application like dark theme for example.
+US008 UserStory008: As a student, I would want to the option for the application to organize pdf pages in a certain style if I did not want to use the mouse to do it. 
+
+US009 UserStory009: As a job seeker, I would also want to make a cover letter builder in addition to the resume builder.
+US010 UserStory010: As a job seeker, if I built a resume from scratch I would want my unique design to saved as an option.
