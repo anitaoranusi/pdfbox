@@ -14,4 +14,7 @@ US009 UserStory009: As a job seeker, I would also want to make a cover letter bu
 US010 UserStory010: As a job seeker, if I built a resume from scratch I would want my unique design to saved as an option.
 
 US011 UserStory011: As a working professional, I would like there to be a feature to draw your signature so that I can sign important electronic documents
-Us012 UserStory012: As an English major, I wwould like there to be a synonym generator for words to avoid repetition in essays
+US012 UserStory012: As an English major, I wwould like there to be a synonym generator for words to avoid repetition in essays
+
+US013 UserStory013:  As a user, I want to make a translater so that any student can translate any pdf to their languages.
+US014 UserStory014:  As a user, I want to make a voice to text feature  to search so that it will be easy to search.
