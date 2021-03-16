@@ -9,6 +9,10 @@ US003 Task006: Research on what would be visually appealing for a color scheme f
 US003 Task007: Design organization styles that would make most users comfortable
 US003 Task008: Implement a solution that will store a unique formatting style for a built resume
 US003 Task009: Provide shortcuts and for the organizing features
+US003 Task010: Add a save/save as button to progress on a document and/or change its name
+US003 Task011: Implement an algorithm that restores the most recent save point in the case of abrupt terminations.
 
-US005 Task010 - Create   boxes to enter the information of the student.Defination of the done is the users can be able to fill out the boxes.
-US005 Task011 - Make a function to convert the user input to PDF format. Defination of done is when input information creats micely formatted PDF document.
+US005 Task012: Create boxes to enter the information of the student. Definition of the done is when the users is be able to fill out the boxes.
+US005 Task013: Make a function to convert the user input to PDF format. Definition of done is when input information creates nicely formatted PDF documents.
+
+
