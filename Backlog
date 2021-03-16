@@ -15,4 +15,6 @@ US003 Task011: Implement an algorithm that restores the most recent save point i
 US005 Task012: Create boxes to enter the information of the student. Definition of the done is when the users is be able to fill out the boxes.
 US005 Task013: Make a function to convert the user input to PDF format. Definition of done is when input information creates nicely formatted PDF documents.
 
+US007 Task014: Implement a dark theme feature button in settings for pdfbox.
 
+US010 Task015: Implement a design feature where users will be able to upload their design for other users to use as a template.
