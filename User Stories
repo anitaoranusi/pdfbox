@@ -1,12 +1,5 @@
 US001 UserStory001: As a teacher,  I would like to be able to move and swap individual pdf pages around for better organization
-5 points T001.1: Identify a method for a user to select a pdf page in a multiple page pdf
-8 points T001.2: Identify a method for a user to change order of selected page
-5 points T001.3: Demonstrate user selection of user pdf page
-8 points T001.4: Demonstrate user changing order of selected page
 US002 UserStory002: As a new cyber security intern, I would like there to be a feature to add a password and encrypt the files
-T002.1: Verify that pdfbox provides a mechanism for encrypting a pdf document by surveying pdfbox source code
-T002.2: Identify a mechanism for a user to enter a password
-T002.3: Demonstrate user encrypting a pdf document
 
 US003 UserStory003: As an Editor, I want to save document in a file so that users can open the document for further editing or review.
 US004 UserStory004: As an Editor, I want to automatically persist my changes so that I do not lose my changes if the tool is unexpectedly terminated before saving into a file.
