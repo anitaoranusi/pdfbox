@@ -24,6 +24,8 @@ US010 Task015: Implement a design feature where users will be able to upload the
 5 points T001.3: Demonstrate user selection of user pdf page
 8 points T001.4: Demonstrate user changing order of selected page
 
-T002.1: Verify that pdfbox provides a mechanism for encrypting a pdf document by surveying pdfbox source code
-T002.2: Identify a mechanism for a user to enter a password
-T002.3: Demonstrate user encrypting a pdf document
+3 points T002.1: Verify that pdfbox provides a mechanism for encrypting a pdf document by surveying pdfbox source code
+5 points T002.2: Identify a mechanism for a user to enter a password
+5 points T002.3: Demonstrate user encrypting a pdf document
+
+3 points T003.1: Verify that pdfbox provides a mechanism for saving a pdf document
