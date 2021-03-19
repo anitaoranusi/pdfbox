@@ -18,3 +18,12 @@ US005 Task013: Make a function to convert the user input to PDF format. Definiti
 US007 Task014: Implement a dark theme feature button in settings for pdfbox.
 
 US010 Task015: Implement a design feature where users will be able to upload their design for other users to use as a template.
+
+5 points T001.1: Identify a method for a user to select a pdf page in a multiple page pdf
+8 points T001.2: Identify a method for a user to change order of selected page
+5 points T001.3: Demonstrate user selection of user pdf page
+8 points T001.4: Demonstrate user changing order of selected page
+
+T002.1: Verify that pdfbox provides a mechanism for encrypting a pdf document by surveying pdfbox source code
+T002.2: Identify a mechanism for a user to enter a password
+T002.3: Demonstrate user encrypting a pdf document
