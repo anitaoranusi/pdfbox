@@ -6,7 +6,7 @@ US004 UserStory004: As an Editor, I want to automatically persist my changes so 
 
 US005 UserStory005: As a student, I want a resume builder, so that it will create nicely formatted resume.
 
-US007 UserStory007: As a user, I want there to be a feature that changes themes on the application so that I can switch to a feature that is my preference.
+US007 UserStory007: As a user, I want there to be a dark theme feature so that I can switch to a feature that is my preference.
 US008 UserStory008: As a teaching assistant, I want to be able to highlight words so that I can focus on the important parts of the document.
 
 US009 UserStory009: As a job seeker, I want my cover letter format to be saved as an option so that others can use it as a template.
