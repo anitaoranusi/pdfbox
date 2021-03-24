@@ -20,3 +20,8 @@ US013 UserStory013:  As a user, I want to make a translater so that any student 
 US014 UserStory014:  As a user, I want to make a voice to text feature  to search so that it will be easy to search.
 
 US015 UserStory015:  As a teacher, I would want to have side notes for extra information on the topic of which I am lecturing on  
+
+US016 UserStory016: As a general user, it would be helpful if I had the page numbers displayed somewhere in the UI for the sake of keeping track of where I am.
+US017 UserStory017: As a student I would want to be able to type into the annotations.
+US017 UserStory018: As a student it would help if I could move the annotations around the document.
+US017 UserStory019: As a new user I would want to have information about using the application itself.
