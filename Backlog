@@ -1,29 +1,19 @@
-US001 Task001: Create a tab exclusively for editing one or more selected PDF documents
-US001 Task002: Implement the swap mechanism with the use of data structures such as an array list
-
-US002 Task003: Add a button that provides the option to add an encrypted password to a PDF document
-US002 Task004: When a PDF document that contains a password is accessed, a user must enter the password to view and/or edit said document
-
-US003 Task005: Get the project to run
-US003 Task006: Research on what would be visually appealing for a color scheme for themes for pdfbox
-US003 Task007: Design organization styles that would make most users comfortable
-US003 Task008: Implement a solution that will store a unique formatting style for a built resume
-US003 Task009: Provide shortcuts and for the organizing features
-US003 Task010: Add a save/save as button to progress on a document and/or change its name
-US003 Task011: Implement an algorithm that restores the most recent save point in the case of abrupt terminations.
-
-US005 Task012: Create text-boxes to enter the information of the student. Definition of the done is when the users is be able to fill out the boxes.
-US005 Task013: Make a function to convert the user input to PDF format. Definition of done is when input information creates nicely formatted PDF documents.
-
-US007 Task014: Implement a dark theme feature button in settings for pdfbox.
-
-US010 Task015: Implement a design feature where users will be able to upload their design for other users to use as a template.
-
 5 points T001.1: Identify a method for a user to select a pdf page in a multiple page pdf
 8 points T001.2: Identify a method for a user to change order of selected page
 5 points T001.3: Demonstrate user selection of user pdf page
 8 points T001.4: Demonstrate user changing order of selected page
 
-T002.1: Verify that pdfbox provides a mechanism for encrypting a pdf document by surveying pdfbox source code
-T002.2: Identify a mechanism for a user to enter a password
-T002.3: Demonstrate user encrypting a pdf document
+3 points T002.1: Verify that pdfbox provides a mechanism for encrypting a pdf document by surveying pdfbox source code
+5 points T002.2: Identify a mechanism for a user to enter a password
+5 points T002.3: Demonstrate user encrypting a pdf document
+
+3 points T003.1: Verify that pdfbox provides a mechanism for saving a document
+3 points T003.2: Demonstrate user saving a pdf document
+
+8 points T007.1: Identify a method for a user to select light or dark theme
+5 points T007.2: Demonstrate user selecting a theme
+5 points T007.3: Demonstrate user switching between themes
+
+3 points T008.1: Verify that pdfbox provides a mechanism for highlighting texts
+5 points T008.2: Identify a method for a user to highlight texts
+3 points T008.3: Demonstrate user highlighting texts
