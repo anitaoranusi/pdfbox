@@ -33,7 +33,16 @@
                   <MenuItem fx:id="addBoxAnnotationMenuItem" mnemonicParsing="false" text="Add Box Annotation" />
                   <MenuItem fx:id="addEllipseAnnotationMenuItem" mnemonicParsing="false" text="Add Ellipse Annotation" />
                   <MenuItem fx:id="addTextAnnotationMenuItem" mnemonicParsing="false" text="Add Text Annotation" />
-              <MenuItem fx:id="deleteAnnotationMenuItem" mnemonicParsing="false" text="Delete Annotation" />
+                  <MenuItem fx:id="deleteAnnotationMenuItem" mnemonicParsing="false" text="Delete Annotation" />
+                  <MenuItem fx:id="highlightTextMenuItem" mnemonicParsing="false" text="Highlight Text" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Theme">
+            <items>
+                  <MenuItem fx:id="defaultThemeItem" mnemonicParsing="false" text="Default">
+                  </MenuItem>
+                  <MenuItem fx:id="darkThemeItem" mnemonicParsing="false" text="Dark">
+                  </MenuItem>
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
