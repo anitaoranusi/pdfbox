@@ -74,6 +74,9 @@ public class AIRViewerController implements Initializable {
 
     @FXML
     private MenuItem deleteAnnotationMenuItem;
+    
+    @FXML
+    private MenuItem highlightTextMenuItem;
 
     private AIRViewerModel model;
 
