@@ -74,9 +74,6 @@ public class AIRViewerController implements Initializable {
 
     @FXML
     private MenuItem deleteAnnotationMenuItem;
-    
-    @FXML
-    private MenuItem highlightTextMenuItem;
 
     private AIRViewerModel model;
 
@@ -154,8 +151,7 @@ public class AIRViewerController implements Initializable {
         assert addEllipseAnnotationMenuItem != null : "fx:id=\"addEllipseAnnotationMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
         assert addTextAnnotationMenuItem != null : "fx:id=\"addTextAnnotationMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
         assert deleteAnnotationMenuItem != null : "fx:id=\"deleteAnnotationMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
-        assert highlightTextMenuItem != null : "fx:id=\"highlightTextMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
-       
+
         if (null != model) {
             pagination.setPageCount(model.numPages());
             pagination.setDisable(false);
@@ -169,7 +165,6 @@ public class AIRViewerController implements Initializable {
             addEllipseAnnotationMenuItem.setDisable(false);
             addTextAnnotationMenuItem.setDisable(false);
             deleteAnnotationMenuItem.setDisable(0 >= model.getSelectionSize());
-            highlightTextMenuItem.setDisable(false);
 
             if (null != currentPageImageView) {
                 int pageIndex = pagination.getCurrentPageIndex();
@@ -219,7 +214,6 @@ public class AIRViewerController implements Initializable {
             addEllipseAnnotationMenuItem.setDisable(true);
             addTextAnnotationMenuItem.setDisable(true);
             deleteAnnotationMenuItem.setDisable(true);
-            highlightTextMenuItem.setDisable(true);
 
         }
     }
@@ -237,7 +231,6 @@ public class AIRViewerController implements Initializable {
         assert addEllipseAnnotationMenuItem != null : "fx:id=\"addEllipseAnnotationMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
         assert addTextAnnotationMenuItem != null : "fx:id=\"addTextAnnotationMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
         assert deleteAnnotationMenuItem != null : "fx:id=\"deleteAnnotationMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
-        assert highlightTextMenuItem != null : "fx:id=\"highlightTextMenuItem\" was not injected: check your FXML file 'simple.fxml'.";
 
         model = aModel;
 
@@ -323,15 +316,6 @@ public class AIRViewerController implements Initializable {
                     int pageIndex = pagination.getCurrentPageIndex();
                     model.executeDocumentCommandWithNameAndArgs("DeleteSelectedAnnotation",
                             new String[]{Integer.toString(pageIndex)});
-                    refreshUserInterface();
-                }
-            });
-            highlightTextMenuItem.setOnAction(new EventHandler<ActionEvent>() {
-                @Override
-                public void handle(ActionEvent e) {
-                    int pageIndex = pagination.getCurrentPageIndex();
-                    model.executeDocumentCommandWithNameAndArgs("highlightTextMenuItem",
-                            new String[]{Integer.toString(pageIndex), "36.0", "36.0", "72.0", "72.0"});
                     refreshUserInterface();
                 }
             });
