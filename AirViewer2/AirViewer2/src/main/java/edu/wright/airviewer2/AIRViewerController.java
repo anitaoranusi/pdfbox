@@ -330,7 +330,7 @@ public class AIRViewerController implements Initializable {
                 @Override
                 public void handle(ActionEvent e) {
                     int pageIndex = pagination.getCurrentPageIndex();
-                    model.executeDocumentCommandWithNameAndArgs("highlightTextMenuItem",
+                    model.executeDocumentCommandWithNameAndArgs("HighlightTextMenuItem",
                             new String[]{Integer.toString(pageIndex), "36.0", "36.0", "72.0", "72.0"});
                     refreshUserInterface();
                 }
