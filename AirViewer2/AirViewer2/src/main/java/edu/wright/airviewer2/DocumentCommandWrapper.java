@@ -105,6 +105,12 @@ public class DocumentCommandWrapper extends AbstractDocumentCommandWrapper {
                 return new DeleteSelectedAnnotationDocumentCommand(owner, args);
             }
         }, "DeleteSelectedAnnotation");
+        AbstractDocumentCommandWrapper.registerCommandClassWithName(new makeCommand() {
+            @Override
+            public AbstractDocumentCommand make(AbstractDocumentCommandWrapper owner, ArrayList<String> args) {
+                return new HighlightTextDocumentCommand(owner, args);
+            }
+        }, "HighlightText");
     }
 
     /**
@@ -124,7 +130,7 @@ public class DocumentCommandWrapper extends AbstractDocumentCommandWrapper {
       @   ensures [file at path].nonAnnotationContent == \old(<[file at path]>).nonAnnotationContent
       @   ensures [file at path].annotationContent == \old(<[file at path]>).annotationContent
      */
-    public static DocumentCommandWrapper loadDosumentAtPath(String aPath) throws IOException {
+    public static DocumentCommandWrapper loadDosumentAtPath(String aPath) throws IOException {             
         DocumentCommandWrapper result = null;
         PDDocument document = PDDocument.load(new File(aPath));
 
@@ -659,6 +665,46 @@ public class DocumentCommandWrapper extends AbstractDocumentCommandWrapper {
         @Override
         public String getName() {
             return "Delete Annotation";
+        }
+    }
+    public class HighlightTextDocumentCommand extends AbstractDocumentCommand {
+
+        /**
+         *
+         * @param anOwner
+         * @param args
+         */
+        public HighlightTextDocumentCommand(AbstractDocumentCommandWrapper anOwner, ArrayList<String> args) {
+            super(anOwner, args);
+        }
+
+        /**
+         *
+         * @return If execute() succeeds, a Command that is the reciprocal of
+         * the receiver is returned. Otherwise, null is returned.
+         */
+        @Override
+        public AbstractDocumentCommand execute() {
+            AbstractDocumentCommand result = null;
+
+            /*
+            assert null != arguments && arguments.size() == 5;
+            List<PDAnnotation> previousAnnotations = BoxAnnotationMaker.make(owner.wrappedDocument, arguments);
+            result = new ReplaceAnnotationDocumentCommand(owner, previousAnnotations, arguments);
+            */
+
+            return result;
+        }
+
+        /**
+         *
+         * @return The name of the command as it will appear in a user interface
+         * for undo and redo operations e.g. "Undo Delete Annotation" where the
+         * string after "Undo " is returned from getName().
+         */
+        @Override
+        public String getName() {
+            return "Highlight Text";
         }
     }
 
