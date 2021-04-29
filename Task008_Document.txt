@@ -1,0 +1,6 @@
+Task008.1: Verify that pdfbox provides a mechanics for highlighting text.
+	+ There is not direct way or classes available in the pdfbox to highlight texts.
+	+ However, some of the existing classes and corresponding methods can be combined to accomplish this task. 
+	+ Since it is a GUI based approache, the highlight text should be incorporated in conjuction with the javafx where javafx will extract the position in the pdf document where highlight should be added and pdfbox will add highlighting in appropriate location. 
+	+ Based on the initial resesrch, existing classes in the AIRViewer suchas BoxAnnotationMaker, TextAnnotationMaker, or EllipseAnnotationMaker could potentially be modified to achieve highlight text feature. 
+	+ Based on the feature desired for highlighting text, above mentioned classes has to be momdified while adding existing classes from pdfbox. 
