@@ -687,11 +687,11 @@ public class DocumentCommandWrapper extends AbstractDocumentCommandWrapper {
         public AbstractDocumentCommand execute() {
             AbstractDocumentCommand result = null;
 
-            /*
+            
             assert null != arguments && arguments.size() == 5;
-            List<PDAnnotation> previousAnnotations = BoxAnnotationMaker.make(owner.wrappedDocument, arguments);
+            List<PDAnnotation> previousAnnotations = HighlightTextMaker.make(owner.wrappedDocument, arguments);
             result = new ReplaceAnnotationDocumentCommand(owner, previousAnnotations, arguments);
-            */
+            
 
             return result;
         }
