@@ -4,3 +4,17 @@ Task008.1: Verify that pdfbox provides a mechanics for highlighting text.
 	+ Since it is a GUI based approache, the highlight text should be incorporated in conjuction with the javafx where javafx will extract the position in the pdf document where highlight should be added and pdfbox will add highlighting in appropriate location. 
 	+ Based on the initial resesrch, existing classes in the AIRViewer suchas BoxAnnotationMaker, TextAnnotationMaker, or EllipseAnnotationMaker could potentially be modified to achieve highlight text feature. 
 	+ Based on the feature desired for highlighting text, above mentioned classes has to be momdified while adding existing classes from pdfbox. 
+	
+	
+	
+Task008.2: Identify a method for a user to highlight texts
+	+A highlighter can be made by using three potentail classes in the pdfboxes:
+		- org.apache.pdfbox.pdmodel.common.PDRectangle: which creates a rectangle by using it's constructor method  to encircle the texts to be highlighted
+		- org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationTextMarkup can add the markup inside the rectanble by invoking a constructor in the 		     form of PDAnnotationTextMarkup(PDAnnotationTextMarkup.SUB_TYPE_HIGHLIGHT)
+			* The PDAnnotationTextMarkup class needs two methods to add the highlight:
+				+ PDAnnotationTextMarkup.setQuadPoints(quadPoints[]) to add the rectangle in the appropriate location
+				+ PDAnnotationTextMarkup.setColor(Color) to add the appropriate highlighting color
+		- org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation class to add the PDAnnotationTextMarkup class in the form of constructor 			  PDAnnotation(PDAnnotationTextMarkup)
+		
+	+ Above mentioned class will be integrated in the HighlightTextMaker.java class dummy file that was created before. 
+	
